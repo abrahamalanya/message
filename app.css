@@ -1,8 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
 :root {
-    --primary: #dadada;
+  --one: #222831;
+  --two: #393e46;
+  --three: #00adb5;
+  --four: #eeeeee;
 }
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--one);
+  /* color: var(--four); */
+  color: var(--three);
+  font-family: "Lobster", cursive;
+}
+
+.container-message {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-message-text {
+  width: 80%;
+}
+
+.message-text {
+  font-size: 2em;
 }
