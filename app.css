@@ -27,8 +27,16 @@ body {
 
 .container-message-text {
   width: 80%;
+  border-radius: 1rem;
+  background-color: var(--two);
+  height: 80vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .message-text {
+  width: 80%;
   font-size: 2em;
 }
